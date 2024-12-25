@@ -16,7 +16,7 @@
     <!-- 
     - favicon
   -->
-    <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" /> -->
+    <link rel="shortcut icon" href="./assets/images/logo-light.png" type="image/svg+xml" />
 
     <!-- 
     - custom css link
@@ -45,16 +45,16 @@
     - #HEADER
   -->
 
-    <header class="header" data-header="">
+    <header class="header active" data-header="">
         <div class="container">
             <a href="index.html" class="logo">
-                <img src="./assets/images/logo1.png" width="165" height="50" alt="I FLY logo" />
+                <img src="./assets/images/logo1.png" width="120" height="50" alt="I FLY logo" />
             </a>
 
             <nav class="navbar" data-navbar="">
                 <div class="wrapper">
                     <a href="index.html" class="logo">
-                        <img src="./assets/images/logo1.png" width="165" height="50" alt="I FLY logo" />
+                        <img src="./assets/images/logo1.png" width="120" height="50" alt="I FLY logo" />
                     </a>
 
                     <button class="nav-close-btn" aria-label="close menu" data-nav-toggler="">
@@ -99,32 +99,34 @@
               >
             </li>
 
-            <li class="navbar-item">
-              <a
-                href="MSC_Enterence.html"
-                class="navbar-link"
-                data-nav-link=""
-                >MSC Enterence</a
-              >
-            </li>
+            <li class="navbar-item tooltip">
+              <a href="#exam" class="navbar-link" data-nav-link>Other Exams</a>
+                        <ul class="drop-down">
+                            <li>
+                                <a href="CUET.html" class="dd-elements">CUET</a>
+                            </li>
+                            <li>
+                                <a href="JAM.html" class="dd-elements">JAM</a>
+                            </li>
+                            <li>
+                                <a href="AICEE.html" class="dd-elements">AICEE</a>
+                            </li>
+                        </ul>
 
-            <li class="navbar-item">
-              <a
-                href="Results.html"
-                class="navbar-link"
-                data-nav-link=""
-                >Results</a
-              >
-            </li>
+                    </li>
 
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link="">Contact</a>
+                    <li class="navbar-item">
+                        <a href="Results.html" class="navbar-link" data-nav-link="">Results</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#footer" class="navbar-link" data-nav-link="">Contact</a>
                     </li>
                 </ul>
             </nav>
 
             <div class="header-actions">
-                <a href="#" class="btn has-before">
+                <a href="quiz app/quiz.html" target="_blank" class="btn has-before">
                     <span class="span">Online Test</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
@@ -204,7 +206,7 @@
                         <li>
                             <div class="category-card" style="--color: 170, 75%, 41%">
                                 <h3 class="h3">
-                                    <a href="https://www.icmr.gov.in/whats-new" class="card-title">ICMR Notice</a>
+                                    <a href="https://www.icmr.gov.in/whats-new" class="card-title" target="_blank">ICMR Notice</a>
                                 </h3>
                             </div>
                         </li>
@@ -220,7 +222,7 @@
                         <li>
                             <div class="category-card" style="--color: 170, 75%, 41%">
                                 <h3 class="h3">
-                                    <a href="https://exams.nta.ac.in/DBT/" class="card-title">GATB 2025</a>
+                                    <a href="https://exams.nta.ac.in/DBT/" class="card-title" target="_blank">GATB 2025</a>
                                 </h3>
                             </div>
                         </li>
@@ -228,7 +230,7 @@
                         <li>
                             <div class="category-card" style="--color: 170, 75%, 41%">
                                 <h3 class="h3">
-                                    <a href="https://jam2025.iitd.ac.in/" class="card-title">IIT JAM</a>
+                                    <a href="https://jam2025.iitd.ac.in/" class="card-title" target="_blank">IIT JAM</a>
                                 </h3>
                             </div>
                         </li>
@@ -236,7 +238,7 @@
                         <li>
                             <div class="category-card" style="--color: 170, 75%, 41%">
                                 <h3 class="h3">
-                                    <a href="#" class="card-title">DBT JRF Notice</a>
+                                    <a href="#" class="card-title" target="_blank">DBT JRF Notice</a>
                                 </h3>
                             </div>
                         </li>
@@ -244,7 +246,7 @@
                         <li>
                             <div class="category-card" style="--color: 170, 75%, 41%">
                                 <h3 class="h3">
-                                    <a href="https://iisc.ac.in/admissions/msc-programmes/" class="card-title">IISc</a>
+                                    <a href="https://iisc.ac.in/admissions/msc-programmes/" class="card-title" target="_blank">IISc</a>
                                 </h3>
                             </div>
                         </li>
@@ -275,7 +277,7 @@
                                 </div>
 
                                 <h3 class="h3">
-                                    <a href="#" class="card-title">CSIR NET</a>
+                                    <a href="CSIR_NET.html" class="card-title">CSIR NET</a>
                                 </h3>
 
                                 <p class="card-text">
@@ -291,11 +293,11 @@
                                 </div>
 
                                 <h3 class="h3">
-                                    <a href="#" class="card-title">GATE</a>
+                                    <a href="gate.html" class="card-title">GATE</a>
                                 </h3>
 
                                 <p class="card-text">
-                                    Preprare with us for GATE Examination (Life Science and Biotechnology)
+                                    Life Science and Biotechnology
                                 </p>
                             </div>
                         </li>
@@ -307,11 +309,11 @@
                                 </div>
 
                                 <h3 class="h3">
-                                    <a href="#" class="card-title">M. Sc. Enterence</a>
+                                    <a href="CUET.html" class="card-title">CUET</a>
                                 </h3>
 
                                 <p class="card-text">
-                                    M.Sc. Enterence Examination (Life Science and Biotechnology)
+                                    Preprare with us for CUET PG (Life Science)
                                 </p>
                             </div>
                         </li>
@@ -323,14 +325,31 @@
                                 </div>
 
                                 <h3 class="h3">
-                                    <a href="#" class="card-title">IISc Enterence</a>
+                                    <a href="JAM.html" class="card-title">JAM</a>
                                 </h3>
 
                                 <p class="card-text">
-                                    Preprare with us for Life Science and Biotechnology and get selected in IISc
+                                    Preprare with us for JAM (Life Science)
                                 </p>
                             </div>
                         </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 42, 94%, 55%">
+                                <div class="card-icon">
+                                    <img src="./assets/images/IISc-100.png" width="40" height="40" loading="lazy" alt="Hybrid Distance Programs" class="img" />
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="AICEE.html" class="card-title">AICEE</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Preprare with us for JAM (Life Science)
+                                </p>
+                            </div>
+                        </li>
+
                     </ul>
                 </div>
             </section>
@@ -407,109 +426,74 @@
                     know it inside out with an experience of more than seventeen
                     yearsarefully observed and studied the exam pattern and know
                     it inside out with an experience of more than seventeen
-                    years.</span
-                  >
-                </li>
-              </ul>
+                    years.
+                  </span>
+                            </li>
+                        </ul>
 
-              <img
-                src="./assets/images/about-shape-4.svg"
-                width="100"
-                height="100"
-                loading="lazy"
-                alt=""
-                class="shape about-shape-4"
-              />
-            </div>
-          </div>
-        </section>
+                        <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt="" class="shape about-shape-4" />
+                    </div>
+                </div>
+            </section>
 
-        <!-- 
+            <!-- 
         - #Discover us
       -->
 
-        <section class="section course" id="discover-us" aria-label="course">
-          <div class="container">
-            <h2 class="h2 section-title">Discover Us</h2>
+            <section class="section course" id="discover-us" aria-label="course">
+                <div class="container">
+                    <h2 class="h2 section-title">Discover Us</h2>
 
-            <ul class="grid-list">
-              <li>
-                <div class="course-card">
-                  <figure
-                    class="card-banner"
-                    style="--width: 370; --height: 220"
-                  >
-                    <div class="video-wrapper">
-                      <iframe
-                        src="https://www.youtube.com/embed/EvRQprY0ink"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen=""
-                      ></iframe>
-                    </div>
-                  </figure>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="course-card">
+                                <figure class="card-banner" style="--width: 370; --height: 220">
+                                    <div class="video-wrapper">
+                                        <iframe src="https://www.youtube.com/embed/EvRQprY0ink" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </figure>
 
-                  <div class="card-content">
-                    <h3 class="h3">Power Of You | Women's day special</h3>
-                  </div>
+                                <div class="card-content">
+                                    <h3 class="h3">Power Of You | Women's day special</h3>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="course-card">
+                                <figure class="card-banner" style="--width: 370; --height: 220">
+                                    <div class="video-wrapper">
+                                        <iframe src="https://www.youtube.com/embed/C1l7Y7v2dvQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h3">What Is CSIR NET JRF Exam?</h3>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="course-card">
+                                <figure class="card-banner" style="--width: 370; --height: 220">
+                                    <div class="video-wrapper">
+                                        <iframe src="https://www.youtube.com/embed/gruqCT1xRws" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h3">CSIR NET Preparation Tips | Life Science</h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="https://www.youtube.com/@iflyclasses" target="_blank" class="btn has-before">
+                        <span class="span">Explore our Youtube Channel</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+                    </a>
                 </div>
-              </li>
-
-              <li>
-                <div class="course-card">
-                  <figure
-                    class="card-banner"
-                    style="--width: 370; --height: 220"
-                  >
-                    <div class="video-wrapper">
-                      <iframe
-                        src="https://www.youtube.com/embed/C1l7Y7v2dvQ"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen=""
-                      ></iframe>
-                    </div>
-                  </figure>
-
-                  <div class="card-content">
-                    <h3 class="h3">What Is CSIR NET JRF Exam?</h3>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="course-card">
-                  <figure
-                    class="card-banner"
-                    style="--width: 370; --height: 220"
-                  >
-                    <div class="video-wrapper">
-                      <iframe
-                        src="https://www.youtube.com/embed/gruqCT1xRws"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen=""
-                      ></iframe>
-                    </div>
-                  </figure>
-
-                  <div class="card-content">
-                    <h3 class="h3">CSIR NET Preparation Tips | Life Science</h3>
-                  </div>
-                </div>
-              </li>
-            </ul>
-
-            <a
-              href="https://www.youtube.com/@iflyclasses"
-              target="_blank"
-              class="btn has-before"
-            >
-              <span class="span">Explore our Youtube Channel</span>
-
-                                <ion-icon name="arrow-forward-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
-                                </a>
-                    </div>
             </section>
 
             <!-- 
@@ -560,7 +544,7 @@
     - #FOOTER
   -->
 
-    <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <footer class="footer" id="footer" style="background-image: url('./assets/images/footer-bg.png')">
         <div class="footer-top section">
             <div class="container grid-list">
                 <div class="footer-brand">
@@ -568,7 +552,7 @@
                         <img src="./assets/images/logo-light.png" width="100" height="50" alt="I FLY logo">
                     </a>
 
-                    <p class="footer-brand-text">iFLY is an ideal platform to crack exam like NET,GATE,ICMR,DBT and JRF</p>
+                    <p class="footer-brand-text">iFLY is an ideal platform to crack exam like NET, GATE, ICMR, DBT and JRF</p>
 
                     <div class="wrapper">
                         <!-- <span class="span">Add:</span> -->
@@ -595,35 +579,7 @@
                     </div>
                 </ul>
 
-                <!-- <ul class="footer-list">
-          <li>
-            <p class="footer-list-title">Links</p>
-          </li>
 
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Gallery</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">News & Articles</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">FAQ's</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Sign In/Registration</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Coming Soon</a>
-          </li>
-        </ul> -->
 
                 <div class="footer-list">
                     <p class="footer-list-title">Contacts</p>
@@ -670,6 +626,18 @@
                         <li>
                             <a href="https://www.youtube.com/channel/UCDTdP2FpQxc211I0wFsv42Q" class="social-link" target="_blank">
                                 <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="logo youtube"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://t.me/In2iFLY" class="social-link" target="_blank">
+                                <ion-icon name="logo-telegram" role="img" class="md hydrated" aria-label="logo telegram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://whatsapp.com/channel/0029VaLfgqsDJ6Gy9WBKdT3Z" class="social-link" target="_blank">
+                                <ion-icon name="logo-whatsapp" role="img" class="md hydrated" aria-label="logo teligram"></ion-icon>
                             </a>
                         </li>
                     </ul>
